@@ -395,7 +395,11 @@ export default function App() {
               className="text-center relative z-10"
             >
               <div className="mb-8">
-                <Heart className="w-12 h-12 mx-auto text-[#8B7355] mb-6" />
+                <img
+                  src="/icon.png"
+                  alt="Logo Tiara dan Harpan"
+                  className="w-20 h-20 mx-auto mb-6 rounded-full object-cover border-2 border-[#E8DFD4] shadow-md"
+                />
               </div>
 
               <h1 className="text-5xl mb-4 text-[#2C2416]" style={{ fontFamily: 'Playfair Display, serif' }}>
