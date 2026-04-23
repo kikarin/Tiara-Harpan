@@ -724,30 +724,30 @@ export default function App() {
               </h2>
               <div className="max-w-sm mx-auto">
                 <div className="grid grid-cols-2 gap-4">
-                  <button type="button" onClick={() => openImageModal('/assets/1775917860563.png', 'Couple photo 1')} className="rounded-2xl overflow-hidden shadow-lg block">
+                  <button type="button" onClick={() => openImageModal('/1775917860563.png', 'Couple photo 1')} className="rounded-2xl overflow-hidden shadow-lg block">
                     <ImageWithFallback
-                      src="/assets/1775917860563.png"
+                      src="/1775917860563.png"
                       alt="Couple photo 1"
                       className="w-full h-48 object-cover grayscale cursor-pointer"
                     />
                   </button>
-                  <button type="button" onClick={() => openImageModal('/assets/1775919752561.png', 'Couple photo 2')} className="rounded-2xl overflow-hidden shadow-lg block">
+                  <button type="button" onClick={() => openImageModal('/1775919752561.png', 'Couple photo 2')} className="rounded-2xl overflow-hidden shadow-lg block">
                     <ImageWithFallback
-                      src="/assets/1775919752561.png"
+                      src="/1775919752561.png"
                       alt="Couple photo 2"
                       className="w-full h-48 object-cover grayscale cursor-pointer"
                     />
                   </button>
-                  <button type="button" onClick={() => openImageModal('/assets/file_000000002a1c71fab114be8ff4657569.png', 'Couple photo 3')} className="rounded-2xl overflow-hidden shadow-lg block">
+                  <button type="button" onClick={() => openImageModal('/file_000000002a1c71fab114be8ff4657569.png', 'Couple photo 3')} className="rounded-2xl overflow-hidden shadow-lg block">
                     <ImageWithFallback
-                      src="/assets/file_000000002a1c71fab114be8ff4657569.png"
+                      src="/file_000000002a1c71fab114be8ff4657569.png"
                       alt="Couple photo 3"
                       className="w-full h-48 object-cover grayscale cursor-pointer"
                     />
                   </button>
-                  <button type="button" onClick={() => openImageModal('/assets/IMG_5948.png', 'Couple photo 4')} className="rounded-2xl overflow-hidden shadow-lg block">
+                  <button type="button" onClick={() => openImageModal('/IMG_5948.png', 'Couple photo 4')} className="rounded-2xl overflow-hidden shadow-lg block">
                     <ImageWithFallback
-                      src="/assets/IMG_5948.png"
+                      src="/IMG_5948.png"
                       alt="Couple photo 4"
                       className="w-full h-48 object-cover grayscale cursor-pointer"
                     />
