@@ -278,7 +278,7 @@ export default function App() {
                 <button type="button" onClick={() => setDashboardFilter('no')} className={`px-3 py-2 rounded-xl text-xs ${dashboardFilter === 'no' ? 'bg-red-700 text-white' : 'bg-[#FAF8F5] text-[#2C2416] border border-[#E8DFD4]'}`} style={{ fontFamily: 'Inter, sans-serif' }}>Tidak</button>
               </div>
             </div>
-            <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-1">
+            <div className="space-y-4">
               {filteredDashboardRsvps.length === 0 && (
                 <p className="text-sm text-[#8B7355]" style={{ fontFamily: 'Inter, sans-serif' }}>
                   Data tidak ditemukan untuk filter saat ini.
@@ -352,7 +352,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-[#FAF8F5] relative overflow-x-hidden">
+    <div className="min-h-screen bg-[#FAF8F5] relative" style={{ overflowX: 'clip' }}>
       {/* Audio element */}
       <audio ref={audioRef} loop>
         <source src="/musik.mp3" type="audio/mpeg" />
@@ -885,7 +885,7 @@ export default function App() {
                 <h3 className="text-xl mb-4 text-[#2C2416]" style={{ fontFamily: 'Playfair Display, serif' }}>
                   Ucapan & Pesan Tamu
                 </h3>
-                <div className="space-y-3 max-h-80 overflow-y-auto pr-1">
+                <div className="space-y-3">
                   {rsvps.length === 0 && (
                     <p className="text-sm text-[#8B7355]" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Belum ada pesan dari tamu.

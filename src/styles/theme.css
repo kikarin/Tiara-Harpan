@@ -124,8 +124,20 @@
     @apply border-border outline-ring/50;
   }
 
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+  }
+
   body {
     @apply bg-background text-foreground;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
   }
 
   /**
